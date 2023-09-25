@@ -52,6 +52,11 @@ public class Main {
             int temp = array[lastUnsortedIndex];
             array[lastUnsortedIndex] = array[smallestIndex];
             array[smallestIndex] = temp;
+             
+            //Checker
+            System.out.println("\npass " + lastUnsortedIndex + ":");
+            printArray(array);
+            System.out.println("\n");
         }
     }
 
