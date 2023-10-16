@@ -31,6 +31,7 @@ public class PlayerLinkedList {
     {
         PlayerNode current = head;
         current.setPlayer(null);
+        current.setNextPlayer(null);
         size--;
     }
 
